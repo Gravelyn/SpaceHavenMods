@@ -1,0 +1,174 @@
+<data>
+	<Element>
+		<me _name="Hyperdrive" alternateY="false" costGroup="0" ec="7" mid="83980001" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="1" gridOffX="0" gridOffY="4" id="1699" layer="0" rot="R90" />
+				
+				<l damageGroup="0" eid="2" gridOffX="0" gridOffY="5" id="1699" layer="0" rot="R90" />
+				<l damageGroup="0" eid="3" gridOffX="1" gridOffY="4" id="83980002" layer="0" rot="R0" />
+				
+				<l damageGroup="0" eid="4" gridOffX="1" gridOffY="5" id="83980003" layer="0" rot="R180">
+					<rep>
+						<r target="0:Standby:0" with="1702:9:4" />
+					</rep>
+				</l>	
+				<l damageGroup="0" eid="5" gridOffX="1" gridOffY="3" id="1700" layer="0" rot="R90" />
+				
+				<l damageGroup="0" eid="10" gridOffX="0" gridOffY="3" id="1701" layer="0" rot="R90" />
+				
+				<l damageGroup="0" eid="16" gridOffX="0" gridOffY="0" id="1709" layer="0" rot="R0" />
+				
+				<l damageGroup="0" eid="6" gridOffX="1" gridOffY="4" id="1716" layer="0" rot="R270" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="true" placeInMenu="6" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="0" rep="868">
+							<customPrice>
+								<l elementId="1759" howMuch="2" />
+							</customPrice>
+						</l>
+						<l buildTools="50" rep="867">
+							<customPrice>
+								<l elementId="930" howMuch="1" />
+								<l elementId="162" howMuch="1" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="267" />
+				<desc tid="496" />
+				<guiIcon aid="build_icon_2123" />
+				<subCat id="1519" />
+				<restrictions>
+					<l gridX="-1" gridY="-12" sizeX="4" sizeY="12" type="Space" />
+					<l gridX="0" gridY="6" sizeX="2" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="6" skill="Construction" />
+			</objectInfo>
+		</me>
+		<me alternateY="false" costGroup="867" ec="1" mid="83980002" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="Medium" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="engine1F" flx="false" />
+								<r90 aid="null" flx="false" />
+								<r180 aid="engine1B" flx="false" />
+								<r270 aid="null" flx="false" />
+							</l>
+							<l playAnimation="true" state="InUse">
+								<r0 aid="engine1F" flx="false" />
+								<r90 aid="null" flx="false" />
+								<r180 aid="engine1B" flx="false" />
+								<r270 aid="null" flx="false" />
+							</l>
+						</definedStates>
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="engine1FLights" flx="false" />
+							<r90 aid="null" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+		</me>
+		<me mid="83980003" ec="1" costGroup="867" offsetRot="R0" nonSymmetrical="false" alternateY="false">
+			<data>
+				<l type="Object" eid="1" gridOffX="0" gridOffY="0" layer="0">
+					<element id="0" userTogglable="false" renderOnFloor="false" walkGridCost="255" lightValue="Medium">
+						<definedStates>
+							<l state="Standby" playAnimation="false">
+								<r0 aid="engine8F" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="engine8B" flx="false"/>
+								<r270 aid="null" flx="false"/>
+							</l>
+							<l state="InUse" playAnimation="true">
+								<r0 aid="engine8F" flx="false"/>
+								<r90 aid="null" flx="false"/>
+								<r180 aid="engine8B" flx="false"/>
+								<r270 aid="null" flx="false"/>
+							</l>
+						</definedStates>
+						<additionaFullLit x="0" y="0" mirX="0" mirY="0" atNoPower="false" atStandby="true" atInuse="true">
+							<r0 aid="engine8FLights" flx="false"/>
+							<r90 aid="null" flx="false"/>
+							<r180 aid="null" flx="false"/>
+							<r270 aid="null" flx="false"/>
+						</additionaFullLit>
+						<features addFacilityIcons="true" noPressureDmg="false" normalState="true" produceInNormal="false" inUseState="true">
+							<stateWatchdog autoproduce="false"/>
+							<engineHub massCapacity="800" fuelBoost="1.0">
+								<fuel element="178" howMuch="1" consumeEvery="2"/>
+							</engineHub>
+							<noiseAndComfort onlyWhenInuse="false" reduceNegative="false">
+								<radiusBeauty roomDrop="40" value="-30" radius="12"/>
+							</noiseAndComfort>
+						</features>
+						<commonPower/>
+						<boxHatch boxX="20" boxY="3" flipR90="false" in="true" out="true" x="20" y="3">
+							<activate activateOffX="0" activateOffY="-1" />
+						</boxHatch>
+					</element>
+				</l>
+			</data>
+			<linked/>
+			<events/>
+		</me>
+		<me _name="Hyperdrive" alternateY="false" costGroup="0" ec="7" mid="2123" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="1" gridOffX="1" gridOffY="5" id="1699" layer="0" rot="R90" />
+				<l damageGroup="0" eid="2" gridOffX="2" gridOffY="5" id="1699" layer="0" rot="R270" />
+				<l damageGroup="0" eid="3" gridOffX="1" gridOffY="4" id="1698" layer="0" rot="R90" />
+				<l damageGroup="0" eid="4" gridOffX="2" gridOffY="4" id="2124" layer="0" rot="R270">
+					<rep>
+						<r target="0:Standby:0" with="1702:9:4" />
+					</rep>
+				</l>
+				<l damageGroup="0" eid="5" gridOffX="1" gridOffY="3" id="1700" layer="0" rot="R90" />
+				<l damageGroup="0" eid="6" gridOffX="2" gridOffY="3" id="1703" layer="0" rot="R90" />
+				<l damageGroup="0" eid="10" gridOffX="0" gridOffY="3" id="1701" layer="0" rot="R90" />
+				<l damageGroup="0" eid="11" gridOffX="3" gridOffY="3" id="1704" layer="0" rot="R90" />
+				<l damageGroup="0" eid="16" gridOffX="0" gridOffY="0" id="1709" layer="0" rot="R0" />
+				<l damageGroup="0" eid="17" gridOffX="2" gridOffY="0" id="1709" layer="0" rot="R0" />
+				<l damageGroup="0" eid="6" gridOffX="1" gridOffY="4" id="1716" layer="0" rot="R0" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="true" disableAirlockTest="false" disableBuildTest="false" disableRotation="true" placeInMenu="6" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="0" rep="868">
+							<customPrice>
+								<l elementId="1759" howMuch="4" />
+							</customPrice>
+						</l>
+						<l buildTools="50" rep="867">
+							<customPrice>
+								<l elementId="930" howMuch="2" />
+								<l elementId="162" howMuch="2" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="267" />
+				<desc tid="496" />
+				<guiIcon aid="build_icon_2123" />
+				<subCat id="1519" />
+				<restrictions>
+					<l gridX="-2" gridY="-12" sizeX="8" sizeY="12" type="Space" />
+					<l gridX="0" gridY="4" sizeX="1" sizeY="2" type="Floor" />
+					<l gridX="3" gridY="4" sizeX="1" sizeY="2" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="6" skill="Construction" />
+			</objectInfo>
+		</me>
+	</Element>
+</data>
