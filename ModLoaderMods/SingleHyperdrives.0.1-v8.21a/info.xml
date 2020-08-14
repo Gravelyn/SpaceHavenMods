@@ -1,0 +1,14 @@
+<mod>
+  <name>Single Hyperdrives</name>
+  <description>  
+Ever thought the vanilla hyperdrives were too big and bulky and got in the way of designing your perfect ship? Then this is the mod for you!
+This mod halves the size of the vanilla hyperdrive to a single engine.
+The cost and efficiency has also been halved.
+A separate optional class file is available to re-adjust the engine count penalty.
+  </description>
+  <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
+  <gameVersions>
+    <v>0.4.1</v>
+  </gameVersions>
+</mod>
+
