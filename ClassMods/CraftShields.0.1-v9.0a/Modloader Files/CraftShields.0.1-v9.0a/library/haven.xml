@@ -1,0 +1,344 @@
+<data>
+	<Craft>
+		<craft cid="20" craftOffY="16" passengers="4" speed="3.0" maxShieldCharges="3" energyCellRes="1926" shieldPerRes="3" shieldCharges="0" type="Shuttle">
+			<stores capacity="10" starter="false">
+				<rules />
+			</stores>
+			<name tid="68" />
+			<desc tid="2105" />
+			<anims>
+			<GUIAnimation aid="crate1" />
+				<l dir="D1" type="Single" useFlipped="true">
+					<animation aid="dropship1" />
+				</l>
+				<l dir="D2" type="Single" useFlipped="true">
+					<animation aid="dropship2" />
+				</l>
+				<l dir="D6" type="Single" useFlipped="true">
+					<animation aid="dropship6" />
+				</l>
+				<l dir="D7" type="Single" useFlipped="true">
+					<animation aid="dropship7" />
+				</l>
+				<l dir="D8" type="Single" useFlipped="true">
+					<animation aid="dropship8" />
+				</l>
+				<l dir="D23" type="Single" useFlipped="true">
+					<animation aid="dropship23" />
+				</l>
+				<l dir="D63" type="Single" useFlipped="true">
+					<animation aid="dropship63" />
+				</l>
+				<l dir="D69" type="Single" useFlipped="true">
+					<animation aid="dropship69" />
+				</l>
+				<l dir="D89" type="Single" useFlipped="true">
+					<animation aid="dropship89" />
+				</l>
+			</anims>
+			<thrusters particleAliveTime="0.5" particleSpeed="4.0">
+				<animD1 aid="thruster1" />
+				<animD7 aid="thruster7" />
+				<animD4 aid="thruster4" />
+				<animUpZ aid="thrusterUP" />
+				<animDownZ aid="thrusterDOWN" />
+				<directions>
+					<l dir="D9" mirrorOffX="0.0" mirrorOffY="0.0" useFlipped="true">
+						<points>
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="false" TurnCW="false" UpZ="false" mirror="false" mirrorX="66.0" mirrorY="32.0" x="-41.0" y="-34.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="false" TurnCW="false" UpZ="false" mirror="false" mirrorX="74.0" mirrorY="32.0" x="-37.0" y="-36.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="false" TurnCW="false" UpZ="false" mirror="false" mirrorX="82.0" mirrorY="32.0" x="-33.0" y="-38.0" />
+							<l Backward="false" DownZ="false" Forward="true" TurnCCW="true" TurnCW="true" UpZ="true" mirror="true" mirrorX="52.0" mirrorY="26.0" x="-26.0" y="40.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="true" TurnCW="false" UpZ="false" mirror="false" mirrorX="-8.0" mirrorY="30.0" x="-8.0" y="-44.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="true" TurnCW="false" UpZ="false" mirror="false" mirrorX="0.0" mirrorY="50.0" x="0.0" y="-44.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="true" TurnCW="false" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="50.0" x="8.0" y="-44.0" />
+							<l Backward="false" DownZ="false" Forward="true" TurnCCW="false" TurnCW="false" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="34.0" x="0.0" y="40.0" />
+							<l Backward="true" DownZ="false" Forward="false" TurnCCW="false" TurnCW="false" UpZ="true" mirror="true" mirrorX="-52.0" mirrorY="26.0" x="26.0" y="40.0" />
+							<l Backward="false" DownZ="false" Forward="true" TurnCCW="false" TurnCW="true" UpZ="false" mirror="false" mirrorX="80.0" mirrorY="0.0" x="-35.0" y="58.0" />
+							<l Backward="true" DownZ="true" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="false" mirrorX="0.0" mirrorY="0.0" x="38.0" y="-34.0" />
+							<l Backward="true" DownZ="true" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="false" mirrorX="0.0" mirrorY="0.0" x="34.0" y="-36.0" />
+							<l Backward="true" DownZ="true" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="false" mirrorX="0.0" mirrorY="0.0" x="30.0" y="-38.0" />
+							<l Backward="true" DownZ="false" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="false" mirrorX="0.0" mirrorY="0.0" x="35.0" y="58.0" />
+							<l Backward="true" DownZ="false" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="false" mirrorX="0.0" mirrorY="0.0" x="50.0" y="-24.0" />
+							<l Backward="false" DownZ="false" Forward="true" TurnCCW="false" TurnCW="true" UpZ="false" mirror="false" mirrorX="104.0" mirrorY="0.0" x="-50.0" y="-22.0" />
+						</points>
+					</l>
+				</directions>
+			</thrusters>
+			<dockingOffsets>
+				<l dir="D9" x="34" y="0" />
+				<l dir="D7" x="-34" y="0" />
+				<l dir="D1" x="15" y="25" />
+				<l dir="D3" x="-15" y="25" />
+			</dockingOffsets>
+			<extras>
+				<stuff>
+					<l inFront="true" playAlways="false" type="Hatch">
+						<anims>
+							<l x="82" y="-16">
+								<anim dir="D1" type="Single" useFlipped="true">
+									<animation aid="hatch1" />
+								</anim>
+							</l>
+							<l x="-10" y="-45">
+								<anim dir="D7" type="Single" useFlipped="true">
+									<animation aid="hatch1B" />
+								</anim>
+							</l>
+						</anims>
+					</l>
+					<l fullLit="true" inFront="true" playAlways="false" type="Animation">
+						<anims>
+							<l x="0" y="0">
+								<anim dir="D1" type="Single" useFlipped="true">
+									<animation aid="dropshipLit1" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D2" type="Single" useFlipped="true">
+									<animation aid="dropshipLit2" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D6" type="Single" useFlipped="true">
+									<animation aid="dropshipLit6" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D7" type="Single" useFlipped="true">
+									<animation aid="dropshipLit7" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D8" type="Single" useFlipped="true">
+									<animation aid="dropshipLit8" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D23" type="Single" useFlipped="true">
+									<animation aid="dropshipLit23" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D63" type="Single" useFlipped="true">
+									<animation aid="dropshipLit63" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D69" type="Single" useFlipped="true">
+									<animation aid="dropshipLit69" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D89" type="Single" useFlipped="true">
+									<animation aid="dropshipLit89" />
+								</anim>
+							</l>
+						</anims>
+					</l>
+					<l fullLit="true" inFront="true" playAlways="false" type="Animation">
+						<anims>
+							<l x="0" y="0">
+								<anim dir="D1" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack1" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D2" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack2" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D6" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack6" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D7" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack7" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D8" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack8" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D23" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack23" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D63" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack63" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D69" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack69" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D89" type="Single" useFlipped="true">
+									<animation aid="dropshipLitBack89" />
+								</anim>
+							</l>
+						</anims>
+					</l>
+				</stuff>
+			</extras>
+			<oxygen maxOxygen="10000" />
+			<light color="03a68bff" powerTier="None" skipCenter="false">
+				<second color="468076ff" dimming="100" ratio="0.25" />
+				<flood brightness="400" distance="6">
+					<lerpBrightness deadTime="0.25" max="350" min="400" split="0.5" time="4.0" />
+				</flood>
+			</light>
+			<cost>
+				<l _annotation="Infrablock" consumeEvery="1" element="162" howMuch="2" />
+				<l _annotation="Electronics Component" consumeEvery="1" element="173" howMuch="2" />
+			</cost>
+		</craft>
+		<craft cid="39" craftOffY="16" hullRes="1759" hullsPerRes="12" laserMoveSpeed="0.005" oreStorageSize="5" passengers="1" speed="5.0" maxShieldCharges="3" energyCellRes="1926" shieldPerRes="3" shieldCharges="0" type="Miner">
+			<laserEnd aid="miningHit1" />
+			<pulseAnim aid="miningLasedPulse1" />
+			<miningDust id="718" />
+			<asteroidExp id="721" />
+			<laserBuildEnd aid="buildingHit1" />
+			<buildingEffect id="719" />
+			<name tid="71" />
+			<desc tid="2105" />
+			<GUIAnimation aid="pod1" />
+			<anims>
+				<l dir="D1" type="Single" useFlipped="true">
+					<animation aid="pod1" />
+				</l>
+				<l dir="D2" type="Single" useFlipped="true">
+					<animation aid="pod2" />
+				</l>
+				<l dir="D4" type="Single" useFlipped="true">
+					<animation aid="pod4" />
+				</l>
+				<l dir="D7" type="Single" useFlipped="true">
+					<animation aid="pod7" />
+				</l>
+				<l dir="D8" type="Single" useFlipped="true">
+					<animation aid="pod8" />
+				</l>
+			</anims>
+			<thrusters particleAliveTime="0.5" particleSpeed="1.0">
+				<animD1 aid="thruster1" />
+				<animD7 aid="thruster7" />
+				<animD4 aid="thruster4" />
+				<animUpZ aid="thrusterUP" />
+				<animDownZ aid="thrusterDOWN" />
+				<directions>
+					<l dir="D1" mirrorOffX="28.0" mirrorOffY="14.0" useFlipped="true">
+						<points>
+							<l Backward="true" DownZ="false" Forward="false" TurnCCW="false" TurnCW="true" UpZ="true" mirror="true" mirrorX="-2.0" mirrorY="-1.0" x="-2.0" y="20.0" />
+							<l Backward="true" DownZ="true" Forward="false" TurnCCW="false" TurnCW="true" UpZ="false" mirror="true" mirrorX="-2.0" mirrorY="-1.0" x="-2.0" y="-16.0" />
+							<l Backward="true" DownZ="false" Forward="false" TurnCCW="true" TurnCW="false" UpZ="true" mirror="true" mirrorX="-4.0" mirrorY="-2.0" x="-20.0" y="32.0" />
+							<l Backward="true" DownZ="true" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="-28.0" y="-6.0" />
+						</points>
+					</l>
+					<l dir="D7" mirrorOffX="-28.0" mirrorOffY="13.0" useFlipped="true">
+						<points>
+							<l Backward="false" DownZ="false" Forward="true" TurnCCW="true" TurnCW="false" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="2.0" y="22.0" />
+							<l Backward="false" DownZ="false" Forward="true" TurnCCW="false" TurnCW="true" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="25.0" y="33.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="false" TurnCW="true" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="29.0" y="-4.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="true" TurnCW="false" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="4.0" y="-15.0" />
+						</points>
+					</l>
+					<l dir="D2" mirrorOffX="0.0" mirrorOffY="18.0" useFlipped="true">
+						<points>
+							<l Backward="false" DownZ="false" Forward="false" TurnCCW="false" TurnCW="true" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="18.0" y="21.0" />
+							<l Backward="false" DownZ="false" Forward="false" TurnCCW="true" TurnCW="false" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="-14.0" y="21.0" />
+							<l Backward="false" DownZ="true" Forward="false" TurnCCW="false" TurnCW="true" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="20.0" y="-13.0" />
+							<l Backward="false" DownZ="true" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="-17.0" y="-13.0" />
+						</points>
+					</l>
+					<l dir="D4" mirrorOffX="0.0" mirrorOffY="15.0" useFlipped="true">
+						<points>
+							<l Backward="true" DownZ="false" Forward="false" TurnCCW="false" TurnCW="true" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="-18.0" y="24.0" />
+							<l Backward="true" DownZ="true" Forward="false" TurnCCW="false" TurnCW="true" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="-18.0" y="-10.0" />
+							<l Backward="false" DownZ="false" Forward="true" TurnCCW="true" TurnCW="false" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="18.0" y="24.0" />
+							<l Backward="false" DownZ="true" Forward="true" TurnCCW="true" TurnCW="false" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="22.0" y="-10.0" />
+						</points>
+					</l>
+					<l dir="D8" mirrorOffX="0.0" mirrorOffY="10.0" useFlipped="true">
+						<points>
+							<l Backward="false" DownZ="false" Forward="false" TurnCCW="true" TurnCW="false" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="18.0" y="23.0" />
+							<l Backward="false" DownZ="false" Forward="false" TurnCCW="false" TurnCW="true" UpZ="true" mirror="true" mirrorX="0.0" mirrorY="0.0" x="-14.0" y="23.0" />
+							<l Backward="false" DownZ="true" Forward="false" TurnCCW="true" TurnCW="false" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="14.0" y="-12.0" />
+							<l Backward="false" DownZ="true" Forward="false" TurnCCW="false" TurnCW="true" UpZ="false" mirror="true" mirrorX="0.0" mirrorY="0.0" x="-10.0" y="-12.0" />
+						</points>
+					</l>
+				</directions>
+			</thrusters>
+			<dockingOffsets>
+				<l dir="D7" x="5" y="-5" />
+				<l dir="D9" x="-5" y="-5" />
+				<l dir="D1" x="9" y="-9" />
+				<l dir="D3" x="-9" y="-9" />
+			</dockingOffsets>
+			<extras>
+				<stuff>
+					<l inFront="true" playAlways="false" type="Hatch">
+						<anims>
+							<l x="17" y="-11">
+								<anim dir="D1" type="Single" useFlipped="true">
+									<animation aid="hatch1" />
+								</anim>
+							</l>
+							<l x="-16" y="-10">
+								<anim dir="D7" type="Single" useFlipped="true">
+									<animation aid="hatch1B" />
+								</anim>
+							</l>
+						</anims>
+					</l>
+					<l fullLit="true" inFront="true" playAlways="true" type="Animation">
+						<anims>
+							<l x="0" y="0">
+								<anim dir="D1" type="Single" useFlipped="true">
+									<animation aid="pod1light" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D7" type="Single" useFlipped="true">
+									<animation aid="pod7light" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D8" type="Single" useFlipped="true">
+									<animation aid="pod8light" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D2" type="Single" useFlipped="true">
+									<animation aid="pod2light" />
+								</anim>
+							</l>
+							<l x="0" y="0">
+								<anim dir="D4" type="Single" useFlipped="true">
+									<animation aid="pod4light" />
+								</anim>
+							</l>
+						</anims>
+					</l>
+				</stuff>
+			</extras>
+			<oxygen maxOxygen="4000" />
+			<light color="03a68bff" powerTier="None" skipCenter="false">
+				<second color="468076ff" dimming="100" ratio="0.25" />
+				<flood brightness="400" distance="4">
+					<lerpBrightness deadTime="0.25" max="350" min="400" split="0.5" time="4.0" />
+				</flood>
+			</light>
+			<cost>
+				<l _annotation="Infrablock" consumeEvery="1" element="162" howMuch="1" />
+				<l _annotation="Electronics Component" consumeEvery="1" element="173" howMuch="1" />
+			</cost>
+		</craft>
+	</Craft>
+</data>

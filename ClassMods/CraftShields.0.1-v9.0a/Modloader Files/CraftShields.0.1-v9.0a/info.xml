@@ -1,0 +1,12 @@
+<mod>
+  <name>CraftShields</name>
+  <description>  
+Adds shields to Shuttles and Miners to shield them from micrometeoroids. Has 3 shields by default and requires 1 energy cells to full charge the shields. Also adds new parameters for easy tweaking if you dislike the default values.
+  
+  </description>
+  <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
+  <gameVersions>
+    <v>0.4.1</v>
+  </gameVersions>
+</mod>
+
